@@ -1,0 +1,89 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+
+.navbar{
+
+    background-color:#333;
+    color:white;
+   
+}
+
+
+
+.navbar a{
+   text-decoration:none;
+   color:white;
+  
+
+}
+
+.logo{
+ 
+    padding:2rem;
+ 
+
+}
+
+
+.container{
+      max-width:  1100px;
+      /* max-width er means holo 1100px er choto hole ekrokom dekhabe and 1100px boro hole arekrokom dekhabe*/
+      margin: 0px auto;
+
+    /* 1100px er boro holei margin:0px auto kaaj korbe*/
+
+    padding:0 20px;
+    
+    display:flex;
+
+    /* container jehetu logo and ul er parent tai er display flex dite hobe */
+
+    justify-content: space-between;
+
+     /* justify-content mane list gula ke x-axis borabor right e pathiye deoaa */
+    
+    
+     align-items:center;
+
+     /* align-items:center dile logo ta mane(Tanvir Rifat)ta center e asbe y-axis er sapekkeh */
+
+   
+   
+}
+
+
+.navbar ul{
+
+
+    display:flex;
+
+    /* display flex dile ul gula x-axis borabor hoye jabe y-axis theke */
+
+    align-items: center;
+    /* ul gula center e asbe y-axis er sapekkeh karon align-items y-axis er sapekkheh kaaj kore */
+     
+    list-style-type: none;
+
+
+}
+
+
+.navbar ul li a{
+    padding:0.75rem;
+    margin:1rem;
+}
+
